@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+      }
+      h1 {
+        text-align: center;
+        color: #555;
+      }
+      h2 {
+        color: #111;
+        margin-top: 30px;
+      }
+      .section {
+        margin-bottom: 20px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      .section h3 {
+        margin-bottom: 10px;
+        color: #555;
+      }
+      .section p {
+        margin: 5px 0;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      li {
+        margin-bottom: 5px;
+      }
+    </style>
+</head>
+<body>
+    <h1>HOJA DE VIDA </h1>
+
+    <div class="section">
+      <h2>Datos Personales</h2> 
+      <p><strong>Nombre:</strong> <span id="nombre"></span></p> 
+      <p><strong>Estado Civil:</strong> <span id="estadoCivil"></span></p> 
+      <p><strong>Edad:</strong> <span id="edad"></span></p> 
+      <p><strong>CI:</strong> <span id="ci"></span></p>
+      <p><strong>Fecha De Nacimiento: </strong><span id="fechaNacimiento"></span></p>
+      <p><strong>Telefono: </strong> <span id="telefono"></span></p>
+      <p><strong>Dirección:</strong> <span id="direccion"></span></p>
+    </div>
+    
+    <script>
+      document.getElementById("nombre").textContent = "Laura Rivero";
+      document.getElementById("estadoCivil").textContent = "Soltera";
+      document.getElementById("edad").textContent = "20";
+      document.getElementById("ci").textContent = "14857865";
+      document.getElementById("fechaNacimiento").textContent = "03/04/2003";
+      document.getElementById("telefono").textContent = "72214528";
+      document.getElementById("direccion").textContent = "3er anillo interno";
+    </script>
+
+
+
+    <div class="section">
+      <h2>Antecedentes Academicos:</h2>
+      <h3>Educación Primaria</h3>
+      <p>Del 1ro a 6to de primaria en el colegio "Guillermo Weise"</p>
+      
+      <h3>Educación Secundaria</h3>
+      <p>Del 1ro a 6to de secundaria en el colegia "Nestor Suarez"</p>
+      
+      <h3>Educación Superior</h3>
+      <p>Contaduria 2 semestres en el instituto ENSEC, estudiante actual<br>
+         de la carrera de ingenieria en sistemas en la Universida Privada Domingo Savio<br>
+          Cursando el 5to semeste </p>
+      
+    </div>
+
+  
+    <div class="section">
+      <h2>Seminarios</h2>
+      <ul>
+        <li>Manejo de adaptación</li>
+        <li>Edición de video camtasia</li>
+        <li>Amortizaciones</li>
+        <li>Ingenieria industrial y sistemas tecnológicos</li>
+      </ul>
+    </div>
+  
+    <div class="section">
+      <h2>Habilidades y APtitudes</h2>
+      <ul>
+        <li>Capacidad de adaptación</li>
+        <li>Responsabilidad y compromiso</li>
+        <li>Actitudes para atención al cliente</li>
+        <li>Manejo de herramientas digitales</li>
+      </ul>
+    </div>
+
+
+    <div class="section">
+      <h2>Experiancia Laboral </h2>
+
+      <p><em>Mesera Restaurante El Peruano</em></p>
+      <p>julio 2022 - Enero 2023</p>
+      <br>
+      <p><em>Cajera Marcket Center </em></p>
+      <p>Febrero 2023 - Actualidad</p>
+    </div>
+
+    <br>
+
+
+  </body>
+  </html>
